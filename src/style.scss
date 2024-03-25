@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f7e0;
+    background-color: rgba(10,8,8,.922);
+    display: flex;
+    font-family: Work Sans,sans-serif;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.audio-wrapper {
+    background: rgb(221 118 195);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.list-music {
+    margin-bottom: 50px;
+}
+
+.music-controller-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 8px;
+}
