@@ -41,7 +41,7 @@ const MusicController = () => {
 const ListMusic = () => {
   const { onChangeSong, stopMusic } = useContext(MusicPlayerContext)
   const { songs } = useContext(MusicStoreContext)
-  console.log("songs");
+
   return (
     <div className="list-music">
       {songs.map((song) => (

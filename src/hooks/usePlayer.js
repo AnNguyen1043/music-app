@@ -9,14 +9,12 @@ export const usePlayer = () => {
   const onNextSong = () => {
     stopMusic();
     const nextSong = onGetNextSong(song)
-    console.log('next song: ', nextSong)
     onChangeSong(nextSong)
   }
 
   const onPrevSong = () => {
     stopMusic();
     const prevSong = onGetPrevSong(song)
-    console.log('prev song: ', prevSong)
     onChangeSong(prevSong)
   }
 

@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useRef, useState } from "react";
+import { createContext, useContext, useRef, useState } from "react";
 import { MusicStoreContext } from "./MusicStoreContext";
 
 export const MusicPlayerContext = createContext({
